@@ -32,7 +32,10 @@ model.fc = nn.Linear(in_features=model.fc.in_features, out_features=1)
 
 ## 📊 Results
 - Test Accuracy on Custom CNN: ~54%
-
 - Test Accuracy on Resnet50: ~91%
-
 - Due to less data and some random noise model has overfitted.
+
+## 🚀 Future Improvements
+- Use Hybrid Architectures combining CNNs + LSTMs for improved feature extraction.
+- Increase dataset size.
+- Implement Cross-Dataset Validation for better generalization.
